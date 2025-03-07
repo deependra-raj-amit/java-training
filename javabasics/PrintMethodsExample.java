@@ -53,3 +53,5 @@ public class PrintMethodsExample {
 // 7. Currency formatting includes commas and decimal precision ($%,.2f).
 // 8. Boolean values can be formatted using %b.
 // 9. Multiple placeholders in printf can be used for structured output.
+
+
