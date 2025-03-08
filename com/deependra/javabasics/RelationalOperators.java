@@ -1,4 +1,4 @@
-package javabasics;
+package com.deependra.javabasics;
 
 import java.util.Scanner;
 

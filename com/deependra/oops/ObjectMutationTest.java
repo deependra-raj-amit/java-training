@@ -1,4 +1,4 @@
-package OOPs;
+package com.deependra.oops;
 
 class Cat {
     String name;  // Instance variable to store the cat's name

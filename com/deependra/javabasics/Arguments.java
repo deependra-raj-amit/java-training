@@ -1,4 +1,4 @@
-package javabasics;
+package com.deependra.javabasics;
 
 public class Arguments {
     public static void main(@org.jetbrains.annotations.NotNull String[] strings) {

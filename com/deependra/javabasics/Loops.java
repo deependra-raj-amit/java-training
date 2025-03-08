@@ -1,4 +1,4 @@
-package javabasics;
+package com.deependra.javabasics;
 
 public class Loops {
     public static void main(String[] args) {

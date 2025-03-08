@@ -1,4 +1,4 @@
-package javabasics;
+package com.deependra.javabasics;
 
 public class StringImmutability {
     public static void main(String[] args) {
