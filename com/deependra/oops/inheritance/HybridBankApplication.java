@@ -38,6 +38,7 @@ class RegularSavingsAccount extends GeneralBankAccount {
         this.interestRate = interestRate;
     }
 
+
     void addInterest() {
         double interest = (balance * interestRate) / 100;
         balance += interest;
