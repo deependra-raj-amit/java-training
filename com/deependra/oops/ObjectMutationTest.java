@@ -25,8 +25,9 @@ public class ObjectMutationTest {
     }
 
     // Mutator method that modifies the name of the Cat object
-    public static void changeCatName(Cat cat) {
-        cat.name = cat.name.toUpperCase();  // Changing the string reference inside the object
+    public static Cat changeCatName(Cat cat) {
+       cat.name = cat.name.toUpperCase();  // Changing the string reference inside the object
+        return cat;
     }
 }
 

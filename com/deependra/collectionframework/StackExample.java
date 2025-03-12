@@ -2,7 +2,7 @@ package com.deependra.collectionframework;
 
 import java.util.Stack;
 
-class StackExample {
+class StackExample  {
     public static void main(String[] args) {
         Stack<Integer> withdrawalHistory = new Stack<>(); // Stack to track withdrawals
 
