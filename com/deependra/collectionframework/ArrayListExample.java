@@ -1,4 +1,4 @@
-package com.deependra.collectionframework.list;
+package com.deependra.collectionframework;
 
 /*ArrayList in Java
 Dynamic Resizing – Grows automatically when needed.
