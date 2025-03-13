@@ -21,13 +21,13 @@ The program demonstrates key Vector operations like adding, updating, removing, 
 optimizing storage
         */
 
-class LoanApplication {
+class LoanApplications {
     int applicationId;
     String customerName;
     double loanAmount;
     String status; // Pending, Approved, Rejected
 
-    public LoanApplication(int applicationId, String customerName, double loanAmount, String status) {
+    public LoanApplications(int applicationId, String customerName, double loanAmount, String status) {
         this.applicationId = applicationId;
         this.customerName = customerName;
         this.loanAmount = loanAmount;
@@ -44,18 +44,18 @@ class LoanApplication {
 public class VectorExample {
     public static void main(String[] args) {
         // Creating a synchronized list of loan applications
-        Vector<LoanApplication> loanApplications = new Vector<>();
+        Vector<LoanApplications> loanApplications = new Vector<>();
 
         // 1. Adding new loan applications
-        loanApplications.add(new LoanApplication(101, "Rahul Sharma", 500000, "Pending"));
-        loanApplications.add(new LoanApplication(102, "Priya Singh", 250000, "Pending"));
-        loanApplications.add(new LoanApplication(103, "Anil Verma", 700000, "Pending"));
+        loanApplications.add(new LoanApplications(101, "Rahul Sharma", 500000, "Pending"));
+        loanApplications.add(new LoanApplications(102, "Priya Singh", 250000, "Pending"));
+        loanApplications.add(new LoanApplications(103, "Anil Verma", 700000, "Pending"));
 
         // 2. Fetching and displaying loan applications
         System.out.println("All Loan Applications: " + loanApplications);
 
         // 3. Approving a loan application (Updating a record)
-        for (LoanApplication loan : loanApplications) {
+        for (LoanApplications loan : loanApplications) {
             if (loan.applicationId == 102) {  // Suppose Priya Singh's loan is approved
                 loan.status = "Approved";
                 break;
