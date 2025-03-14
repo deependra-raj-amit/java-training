@@ -79,7 +79,6 @@ class LoanOfficerThread extends Thread {
     }
 }
 
-// Main class with the requested meaningful name
 public class SleepAndWaitMethods {
     public static void main(String[] args) {
         BankLoanSystem bank = new BankLoanSystem();
