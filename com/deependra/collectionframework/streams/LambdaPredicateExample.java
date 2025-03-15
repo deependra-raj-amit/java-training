@@ -1,4 +1,4 @@
-package com.deependra.streams;
+package com.deependra.collectionframework.streams;
 
 /*
 Lambda Expression
