@@ -1,4 +1,4 @@
-package com.deependra.IoAndFileHandling;
+package com.deependra.IOandFileHandling;
 
 /*
 Character Streams in Java are used for handling text data by reading and writing character-based files.

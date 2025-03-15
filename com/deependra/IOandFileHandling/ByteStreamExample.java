@@ -1,4 +1,4 @@
-package com.deependra.IoAndFileHandling;
+package com.deependra.IOandFileHandling;
 
 /*
 Byte Streams in Java are used to perform input and output operations on binary data such as images, audio

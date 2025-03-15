@@ -1,4 +1,4 @@
-package com.deependra.IoAndFileHandling;
+package com.deependra.IOandFileHandling;
 
 /*
 Object Streams in Java are used to serialize (convert an object into a byte stream) and deserialize

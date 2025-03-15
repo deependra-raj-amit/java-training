@@ -1,4 +1,4 @@
-package com.deependra.IoAndFileHandling;
+package com.deependra.IOandFileHandling;
 
 /*
 A Data Stream in Java is a specialized stream that allows reading and writing primitive data types

@@ -1,4 +1,4 @@
-package com.deependra.IoAndFileHandling;
+package com.deependra.IOandFileHandling;
 
 /*
 A Buffered Stream is a wrapper around another stream (Byte Stream or Character Stream) that uses an
