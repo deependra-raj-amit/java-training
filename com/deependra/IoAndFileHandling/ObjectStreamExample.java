@@ -1,6 +1,43 @@
 package com.deependra.IoAndFileHandling;
 
+/*
+Object Streams in Java are used to serialize (convert an object into a byte stream) and deserialize
+(reconstruct an object from a byte stream). This allows objects to be saved to a file, transmitted over a
+network, or stored in a database while preserving their state.
+
+Key Points:
+-->Serialization & Deserialization: Converts objects into a format that can be stored or transferred and later reconstructed.
+-->Implements Serializable Interface: The class whose objects need to be serialized must implement the Serializable interface.
+-->Uses ObjectOutputStream & ObjectInputStream: These classes help in writing and reading objects.
+-->Preserves Object State: Object streams maintain the state of objects while saving or transmitting them.
+-->serialVersionUID (Version Control): Helps avoid compatibility issues when deserializing objects of different versions.
+-->Supports Deep Copying: Serialized objects can be deep-copied by writing and reading them back.
+
+Important Methods in Object Streams:
+ObjectOutputStream (Writing Objects)
+    Method	                    Description
+    writeObject(Object obj)	    Serializes an object and writes it to an output stream.
+    flush()	                    Ensures that all data is completely written to the destination.
+    close()	                    Closes the output stream.
+
+ObjectInputStream (Reading Objects)
+    Method	Description
+    readObject()	Reads and deserializes an object from an input stream.
+    close()	        Closes the input stream.
+
+*/
+
+
 import java.io.*;
+
+/*
+A bank maintains confidential employee records, including Employee ID, Name, Designation, Salary,
+and Department. Object Streams allow efficient storage, retrieval, and security of employee data for
+HR operations.
+
+*/
+
+
 
 // Bank Employee class implementing Serializable
 class BankEmployee implements Serializable {
