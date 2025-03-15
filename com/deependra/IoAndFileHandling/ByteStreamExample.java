@@ -28,22 +28,22 @@ chip or magnetic strip. Byte Streams are used to process this data efficiently.*
 
 public class ByteStreamExample {
     public static void main(String[] args) {
-        String atmCardDataFile = "bank_server/atm_card_data.bin";
+        String atmCardDataFile = "C:\\Users\\DEEPENDRA\\Downloads\\File handling demo file.txt";
 
         // Reading encrypted ATM card data
         try (FileInputStream fis = new FileInputStream(atmCardDataFile)) {
             byte[] buffer = new byte[16]; // Reading 16 bytes at a time (typical card block size)
             int bytesRead;
 
-            System.out.print("🔍 ATM Card Data Read (Hex): ");
+            System.out.print("ATM Card Data Read (Hex): ");
             while ((bytesRead = fis.read(buffer)) != -1) {
                 for (int i = 0; i < bytesRead; i++) {
                     System.out.printf("%02X ", buffer[i]); // Display in hexadecimal format
                 }
             }
-            System.out.println("\n✅ ATM Card Authentication Successful!");
+            System.out.println("\nATM Card Authentication Successful!");
         } catch (IOException e) {
-            System.err.println("❌ Error reading ATM Card Data: " + e.getMessage());
+            System.err.println("Error reading ATM Card Data: " + e.getMessage());
         }
     }
 }
