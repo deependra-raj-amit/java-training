@@ -28,8 +28,8 @@ import java.util.Scanner;
 public class StatementExample {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/BankDB";
-        String user = "root";  // Change to your MySQL username
-        String password = "Password";  // Change to your MySQL password
+        String user = "root";
+        String password = "Password";
 
         try {
             // Load MySQL Driver (Optional for JDBC 4.0+)
